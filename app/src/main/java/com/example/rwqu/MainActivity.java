@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnAdminPage = findViewById(R.id.btn_adminpage);
         Button btnLoginPage = findViewById(R.id.btn_wargapage);
+        Button btnTentang   = findViewById(R.id.btn_tentang);
 
         btnAdminPage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +35,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent;
                 intent = new Intent(MainActivity.this,
                         WargaActivity.class);
+                startActivity(intent);
+                overridePendingTransition(0, 0);
+            }
+        });
+        btnTentang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent;
+                intent = new Intent(MainActivity.this,
+                        tentang.class);
                 startActivity(intent);
                 overridePendingTransition(0, 0);
             }

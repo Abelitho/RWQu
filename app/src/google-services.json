@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "622300143507",
+    "firebase_url": "https://ta-mughni-shalsa-2023-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ta-mughni-shalsa-2023",
+    "storage_bucket": "ta-mughni-shalsa-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622300143507:android:4b737bf9895c63c17f1266",
+        "android_client_info": {
+          "package_name": "com.example.rwqu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622300143507-berfud1nv82kbi98bd7ab105kjrcrs42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsT88rJNAt1PNltM1GiyM4NxEBbpWGOpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622300143507-berfud1nv82kbi98bd7ab105kjrcrs42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
